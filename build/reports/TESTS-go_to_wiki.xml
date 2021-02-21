@@ -1,0 +1,25 @@
+<testsuite name="go_to_wiki.Board type breakdown" tests="1" errors="0" failures="0" skipped="0" time="3.654864" timestamp="2021-01-14T22:10:16.961433" hostname="548fcd4687f8"><testcase classname="go_to_wiki.Board type breakdown" name="I go to wiki" status="passed" time="3.654864"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: I go to wiki
+    Given I test things ... passed in 3.655s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+ 
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+[WDM] - Current google-chrome version is 87.0.4280
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - There is no [linux64] chromedriver for browser 87.0.4280 in cache
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - Trying to download new driver from http://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+[WDM] - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/87.0.4280.88]
+
+]]>
+</system-err></testcase></testsuite>

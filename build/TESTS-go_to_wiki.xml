@@ -1,0 +1,69 @@
+<testsuite name="go_to_wiki.Board type breakdown" tests="1" errors="1" failures="0" skipped="0" time="2.04541" timestamp="2021-01-14T21:14:44.133937" hostname="1d64b2e37184"><testcase classname="go_to_wiki.Board type breakdown" name="I go to wiki" status="failed" time="2.04541"><error type="WebDriverException" message="Message: unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn't exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;">
+<![CDATA[
+Failing step: Given I test things ... failed in 2.045s
+Location: features/journey_tests/ui_journeys/go_to_wiki.feature:7
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/usr/local/lib/python3.8/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features/steps/shared_steps.py", line 14, in step_impl
+    driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
+  File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+
+
+Captured stdout:
+
+
+Captured stderr:
+[WDM] - Current google-chrome version is 87.0.4280
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - There is no [linux64] chromedriver for browser 87.0.4280 in cache
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - Trying to download new driver from http://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+[WDM] - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/87.0.4280.88]
+
+Captured logging:
+INFO:WDM:Current google-chrome version is 87.0.4280
+INFO:WDM:Get LATEST driver version for 87.0.4280
+INFO:WDM:There is no [linux64] chromedriver for browser 87.0.4280 in cache
+INFO:WDM:Get LATEST driver version for 87.0.4280
+INFO:WDM:Trying to download new driver from http://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+INFO:WDM:Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/87.0.4280.88]]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: I go to wiki
+    Given I test things ... failed in 2.045s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+ 
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+[WDM] - Current google-chrome version is 87.0.4280
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - There is no [linux64] chromedriver for browser 87.0.4280 in cache
+[WDM] - Get LATEST driver version for 87.0.4280
+[WDM] - Trying to download new driver from http://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
+[WDM] - Driver has been saved in cache [/root/.wdm/drivers/chromedriver/linux64/87.0.4280.88]
+
+]]>
+</system-err></testcase></testsuite>

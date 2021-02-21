@@ -1,0 +1,10 @@
+<testsuite name="petstore_api.Board type breakdown" tests="1" errors="0" failures="0" skipped="0" time="0.459024" timestamp="2021-01-14T22:10:13.525190" hostname="42b702174493"><testcase classname="petstore_api.Board type breakdown" name="I go to wiki" status="passed" time="0.459024"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: I go to wiki
+    Given I call petstore ... passed in 0.459s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

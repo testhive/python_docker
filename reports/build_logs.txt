@@ -1,0 +1,22 @@
+Feature: Board type breakdown # features/journey_tests/api_journeys/petstore_api.feature:1
+  As a test analyst
+  I want to go to wiki
+  In order to test things
+  Scenario: I go to wiki  # features/journey_tests/api_journeys/petstore_api.feature:6
+    Given I call petstore # features/steps/shared_steps.py:30
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+1 step passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.459s
+Feature: Board type breakdown # features/journey_tests/ui_journeys/go_to_wiki.feature:1
+  As a test analyst
+  I want to go to wiki
+  In order to test things
+  Scenario: I go to wiki  # features/journey_tests/ui_journeys/go_to_wiki.feature:6
+    Given I test things   # features/steps/shared_steps.py:8
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+1 step passed, 0 failed, 0 skipped, 0 undefined
+Took 0m3.655s
